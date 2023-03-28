@@ -1,0 +1,19 @@
+<h2 class="title">{{ site.title }}</h2>
+<nav class="navbar">
+    <!-- <a href="{{ site.url }}">Home</a> 
+    <a href="{{ site.url }}{{ site.Blog }}">Blog</a>
+    <a href="{{ site.url }}{{ site.About }}">About</a> -->
+
+    {% for link in site.data.navigation %}
+        <a href="{{ link.url }}">{{ link.name }}</a>
+    {% endfor %}
+        
+    <!-- {% for link in site.special_links %}
+    <a href="{{ link[1] }}">[{{ link[0] }}]</a>
+    {% endfor %} -->
+</nav>
+<!-- <nav>
+    {% for item in site.data.links %}
+        <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+</nav> -->

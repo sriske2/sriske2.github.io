@@ -1,21 +1,19 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
+<footer class="bottom-footer">
+    <!-- <span class="mini-note">You've reached the end of the page. Good job!</span> -->
+    <!-- <nav class="sans">
+        <hr>
+        <p><label class="menu-icon" for="menu-btn">Menu</label></p>
+        <ul class="site-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/designs">Designs</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://canisee.xyz" title="Confirm your vision functionality">[Can I See]</a></li>
+        </ul>
+    </nav> -->
+    <i>Theme derived from
+        <a href="https://knhash.in/jekyllBear">jekyllBear</a>
+    </i>
+    <!-- maybe nav with github, linkedin, etc links -->
+</footer>
 
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
