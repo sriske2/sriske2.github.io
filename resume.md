@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /resume/
+title: Resume
 ---
 
 `todo: access to pdf resume download`
@@ -10,7 +11,7 @@ permalink: /resume/
 
 ### Academic experience
 - 2023-current Arizona State University
-- 2021-2023 Chandler-Gilbert Community College 3.85 GPA
+- 2021-2023 Chandler-Gilbert Community College 3.89 GPA
 - 2021-2021 Scottsdale Community College 4.00 GPA
 
 ### Programming experience
@@ -36,10 +37,11 @@ permalink: /resume/
     - CodeDevils ASU Club
 
 ### Personal programming projects
-- solving Project Euler problems
+- I enjoy solving Project Euler problems. So far I am at 50 solved
 
 ### Open source contributions
+- I contributed the current logo for [ClamTK](https://gitlab.com/dave_m/clamtk)
 
-### Professional experience
+<!-- ### Professional experience -->
 
-### Past work experience
+<!-- ### Past work experience -->

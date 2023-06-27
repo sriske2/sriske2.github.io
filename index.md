@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Skyler Riske
+title: Welcome
 permalink: /
 ---
 
