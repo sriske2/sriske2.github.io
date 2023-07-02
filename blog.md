@@ -1,8 +1,9 @@
 ---
 layout: blog
 title: Blog
-description: Here be writings
+description: Some of my thoughts
 permalink: /blog/
 ---
 
-Here be writings. Mostly mundane, sometimes fanciful.
+<!--Here be writings. Mostly mundane, sometimes fanciful.-->
+Right now everything here is default filler.

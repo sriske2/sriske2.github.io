@@ -356,3 +356,16 @@ small a {
     padding: 50px;
     text-align: center;
 }*/
+
+/* my own stuff */
+#contactform label input {
+    width: 30em;
+}
+#contactform label textarea {
+    width: 30em;
+    height: 6em;
+}
+#contactform button {
+    font-family: "Roboto Slab", serif;
+    width: 5em;
+}

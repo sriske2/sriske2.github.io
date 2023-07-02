@@ -4,9 +4,9 @@ permalink: /resume/
 title: Resume
 ---
 
-`todo: access to pdf resume download`
+<!--`todo: access to pdf resume download`-->
 
-[2023 resume](download)
+<!--[2023 resume](download)-->
 
 
 ### Academic experience
@@ -28,16 +28,17 @@ title: Resume
     - C++
     - Scheme
     - Prolog
+    - basic html/js/css
 
 ### Extracurricular experience
 
 - **Participation in various Programming clubs**
     - CGCC Coding Club
     - SoDA ASU Club
-    - CodeDevils ASU Club
+    - KeebDevils
 
 ### Personal programming projects
-- I enjoy solving Project Euler problems. So far I am at 50 solved
+- I enjoy solving Project Euler problems. So far I am at 50 problems solved
 
 ### Open source contributions
 - I contributed the current logo for [ClamTK](https://gitlab.com/dave_m/clamtk)
