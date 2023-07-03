@@ -369,3 +369,13 @@ small a {
     font-family: "Roboto Slab", serif;
     width: 5em;
 }
+
+@media only screen and (min-device-width: 480px){
+    #contactform label input {
+        width: 70%;
+    }
+    #contactform label textarea {
+        width: 70%;
+        height: 6em;
+    }
+}
