@@ -359,10 +359,10 @@ small a {
 
 /* my own stuff */
 #contactform label input {
-    width: 30em;
+    width: 28em;
 }
 #contactform label textarea {
-    width: 30em;
+    width: 28em;
     height: 6em;
 }
 #contactform button {
@@ -370,12 +370,17 @@ small a {
     width: 5em;
 }
 
-@media only screen and (min-device-width: 480px){
+@media screen and (max-device-width: 480px){
     #contactform label input {
-        width: 70%;
+        width: 95%;
     }
     #contactform label textarea {
-        width: 70%;
-        height: 6em;
+        width: 95%;
+        height: 10em;
     }
+    #contactform button {
+        width: 98%;
+        height: 3em;
+    }
+
 }
