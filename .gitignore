@@ -2,6 +2,8 @@
 *~
 *.sw[p_]
 
+.vscode/
+
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
