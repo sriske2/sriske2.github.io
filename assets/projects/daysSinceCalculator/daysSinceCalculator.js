@@ -1,13 +1,13 @@
 
-// I should have three input fields? mobile optimized too
-
 let then = new Date();
 then.setUTCMonth(6);
 then.setUTCDate(26);
 then.setUTCFullYear(2023);
-const now = new Date(2023,7,15);
+then.setUTCMinutes(0);
+then.setUTCHours(0);
+then.setUTCSeconds(0);
+const now = new Date();
 let diff = now - then;
-// console.log(diff);
 const milliToSec = 1/1000;
 const secToMin = 1/60;
 const MinToHour = 1/60;
