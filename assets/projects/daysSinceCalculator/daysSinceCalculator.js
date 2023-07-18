@@ -26,6 +26,10 @@ datePicker.addEventListener("change", (e) => {
     let dateStr = e.target.value;
     let then = new Date(dateStr);
     let now = Date.now();
+    now.setUTCHours(0);
+    now.setUTCMinutes(0);
+    now.setUTCSeconds(0);
+    
     let diff = now - then;
     let result = Math.floor(diff * milliToSec * secToMin * MinToHour * HourToDay);
     console.log(result);
