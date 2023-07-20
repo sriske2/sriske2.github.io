@@ -403,20 +403,6 @@ small a {
     width: 5em;
 }
 
-@media screen and (max-device-width: 480px){
-    #contactform label input {
-        width: 95%;
-    }
-    #contactform label textarea {
-        width: 95%;
-        height: 10em;
-    }
-    #contactform button {
-        width: 98%;
-        height: 3em;
-    }
-
-}
 
 .headerbox {
     display: flex;
@@ -431,4 +417,19 @@ small a {
     min-height: 25px;
     /* border: black 1px solid; */
     text-align: center;
+}
+
+@media screen and (max-device-width: 480px){
+    #contactform label input {
+        width: 95%;
+    }
+    #contactform label textarea {
+        width: 95%;
+        height: 10em;
+    }
+    #contactform button {
+        width: 98%;
+        height: 3em;
+    }
+
 }
