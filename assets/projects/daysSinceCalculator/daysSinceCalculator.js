@@ -25,7 +25,7 @@ datePicker.addEventListener("change", (e) => {
     console.log("test", e.target.value);
     let dateStr = e.target.value;
     let then = new Date(dateStr);
-    let now = Date.now();
+    let now = new Date();
     now.setUTCHours(0);
     now.setUTCMinutes(0);
     now.setUTCSeconds(0);
