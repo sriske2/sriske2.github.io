@@ -429,6 +429,6 @@ small a {
     border-radius: 5%;
     min-width: 25px;
     min-height: 25px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     text-align: center;
 }
