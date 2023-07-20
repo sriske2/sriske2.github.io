@@ -15,8 +15,7 @@ title: \"$1\"
 date: $HEADER_DATE
 tags: [general]
 ---"
-echo $FILENAME
-echo $HEADER
+
 if [ -e $FILENAME ]
 then
     echo "post exists already"
