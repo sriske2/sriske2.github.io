@@ -8,7 +8,7 @@ class LightSwitch {
         this.element.addEventListener('click', () => {
             this.bodySetDark();
         
-            if (document.body.classList.contains('dark')) {
+            if (document.documentElement.classList.contains('dark')) {
                 localStorage.setItem('darkMode', 'enabled');
                 this.setMoon();
 
@@ -21,7 +21,7 @@ class LightSwitch {
     }
 
     bodySetDark() {
-        document.body.classList.toggle('dark');
+        document.documentElement.classList.toggle('dark');
     }
 
     setMoon() {
@@ -44,7 +44,7 @@ class LightSwitch {
 let ls = new LightSwitch();
 
 if (localStorage.getItem('darkMode') == 'enabled') {
-    ls.bodySetDark();
+    // ls.bodySetDark(); // may have been the source of trouble, causing unnecessary "flicker" and transition
     ls.setMoon();
 } else {
     ls.setSun();

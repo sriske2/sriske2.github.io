@@ -8,7 +8,7 @@
     --help-text-color: #777;
 }
 
-body[class='dark'] {
+html[class='dark'] {
     --text-color: #ddd;
     --text-color-second: #eee;
     --bg-color: #011b22;
@@ -19,7 +19,7 @@ body[class='dark'] {
 }
 
 body {
-    /* transition: background-color 300ms ease; */
+    transition: background-color 300ms ease;
     font-family: "Roboto Slab", serif;
     margin: auto;
     padding: 20px;
