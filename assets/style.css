@@ -19,7 +19,7 @@ body[class='dark'] {
 }
 
 body {
-    transition: background-color 300ms ease;
+    /* transition: background-color 300ms ease; */
     font-family: "Roboto Slab", serif;
     margin: auto;
     padding: 20px;
