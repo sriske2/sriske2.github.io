@@ -58,13 +58,7 @@ exclude: [vendor]
 Blog: /blog
 About: /about
 
-# Add general links to site pages here
-links:
-  Home: /
-  About: /about/
-  Blog: /blog/
-  Resume: /assets/resume.pdf
-  
+github: "https://github.com/sriske2"
 
 # Add links for more focus here
 special_links:
