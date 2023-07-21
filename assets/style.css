@@ -25,12 +25,10 @@ body {
     padding: 20px;
     max-width: 720px;
     text-align: left;
-    /* background-color: #fff; */
     background-color: var(--bg-color);
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
-    /* color: #444; */
     color: var(--text-color);
 }
 
