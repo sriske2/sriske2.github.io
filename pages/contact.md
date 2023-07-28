@@ -5,7 +5,7 @@ title: Contact
 ---
 
 # Contact me
-I don't bite. Feel free to send me a message.
+Feel free to send me a message.
 
 <form id="contactform"
   action="https://formspree.io/f/maygwkrj"
