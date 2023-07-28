@@ -415,6 +415,7 @@ small a {
     min-height: 25px;
     /* border: black 1px solid; */
     text-align: center;
+    cursor: pointer;
 }
 
 @media screen and (max-device-width: 480px){
