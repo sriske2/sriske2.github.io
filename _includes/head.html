@@ -10,13 +10,17 @@
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png" sizes="180x180">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/android-chrome-192x192.png">
-    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png?v=1.1">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png?v=1.1">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png?v=1.1">
+    <link rel="manifest" href="{{ site.baseurl }}/assets/site.webmanifest?v=1.1">
+    <link rel="mask-icon" href="{{ site.baseurl }}/assets/images/safari-pinned-tab.svg?v=1.1" color="#5bbad5">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico?v=1.1">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href='{{ site.baseurl }}/feed.xml' rel='alternate' type='application/atom+xml'>
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
-    <link rel="manifest" href="{{ site.baseurl }}/assets/site.webmanifest">
     {% seo title=false %}
 </head>
 
