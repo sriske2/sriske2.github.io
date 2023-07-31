@@ -2,6 +2,8 @@
 layout: page
 permalink: /resume/
 title: Resume
+sitemap:
+    exclude: 'yes'
 ---
 
 <!--`todo: access to pdf resume download`-->
