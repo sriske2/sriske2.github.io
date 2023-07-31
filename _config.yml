@@ -13,9 +13,11 @@ url: "skylerriske.com" # the base hostname & protocol for your site
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 whitelist:
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 markdown: kramdown
 
