@@ -16,7 +16,7 @@ sitemap:
         {% endunless %}
     {% endfor %}
     {% for page in site.pages %}
-        {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" or page.name == "styles.css" or page.name == "redirects.json" %}
+        {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" or page.name == "style.css" or page.name == "redirects.json" %}
         <url>
             <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
             {% if page.sitemap.lastmod %}
