@@ -16,7 +16,7 @@ sitemap:
         {% endunless %}
     {% endfor %}
     {% for page in site.pages %}
-        {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" or page.name == "style.css" or page.name == "redirects.json" %}
+        {% if page.url == "/" %}
         <url>
             <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
             {% if page.sitemap.lastmod %}
@@ -37,6 +37,6 @@ sitemap:
                 <priority>0.3</priority>
             {% endif %}
         </url>
-        {% endunless %}
+        {% endif %}
     {% endfor %}
 </urlset>
