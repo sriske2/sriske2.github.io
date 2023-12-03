@@ -7,7 +7,7 @@ User-agent: Googlebot
 Disallow: /nogooglebot/
 
 User-agent: GPTBot
-Disallow: *
+Disallow: /
 
 User-agent: *
 Allow: /
