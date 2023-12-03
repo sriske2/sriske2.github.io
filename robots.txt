@@ -6,6 +6,9 @@ sitemap:
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
+User-agent: GPTBot
+Disallow: *
+
 User-agent: *
 Allow: /
 
