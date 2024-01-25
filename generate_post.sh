@@ -1,3 +1,4 @@
+#!/bin/bash
 # Skyler Riske 2023
 # Generate a template blog post for my website.
 # Usage: "./generate_post.sh example-title"

@@ -6,4 +6,3 @@ permalink: /blog/
 ---
 
 <!--Here be writings. Mostly mundane, sometimes fanciful.-->
-Right now everything here is default filler.
