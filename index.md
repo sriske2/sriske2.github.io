@@ -4,7 +4,7 @@ permalink: /
 ---
 
 
-I'm a Junior Computer Science student at Arizona State University.
+I'm a senior computer science student at Arizona State University.
 
 Find me on: 
 <nav>
